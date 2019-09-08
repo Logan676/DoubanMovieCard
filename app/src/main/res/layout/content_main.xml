@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.google.douban.cardlayout.CollapseCardLayout
+        android:id="@+id/collapse_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:paddingRight="20dp"
+        android:visibility="visible"
+        app:cardAlpha="0.95"
+        app:cardHeight="132dp"
+        app:cardScale="1.2"
+        app:cardWidth="98dp"
+        app:childrenContentMarginLeft="30dp"
+        app:itemDividerWidth="1dp"
+        app:itemMarginLeft="0dp"
+        app:itemMarginRight="0dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
