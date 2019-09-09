@@ -13,7 +13,7 @@
 # 依赖
 ```
 dependencies {
-	 implementation 'com.github.Logan676:DoubanMovieCard:1.0.0'
+	implementation 'com.github.Logan676:DoubanMovieCard:V1.0.0'
 }
 ```
 
