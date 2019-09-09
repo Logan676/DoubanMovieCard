@@ -11,6 +11,17 @@
 ![gif1](https://github.com/Logan676/DoubanMovieCard/blob/master/movie_card.gif)
 
 # 依赖
+
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+	
 ```
 dependencies {
 	implementation 'com.github.Logan676:DoubanMovieCard:V1.0.0'
