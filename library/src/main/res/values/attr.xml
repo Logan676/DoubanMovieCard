@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovieCardLayout">
+        <attr name="childrenContentMarginLeft" format="dimension" />
+        <attr name="itemDividerWidth" format="dimension" />
+        <attr name="itemMarginLeft" format="dimension" />
+        <attr name="itemMarginTop" format="dimension" />
+        <attr name="itemMarginBottom" format="dimension" />
+        <attr name="itemMarginRight" format="dimension" />
+        <attr name="cardWidth" format="dimension" />
+        <attr name="cardHeight" format="dimension" />
+        <attr name="cardAlpha" format="float" />
+        <attr name="cardScale" format="float" />
+    </declare-styleable>
+</resources>
